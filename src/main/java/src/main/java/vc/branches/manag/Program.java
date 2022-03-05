@@ -1,11 +1,11 @@
 package src.main.java.vc.branches.manag;
 
-import src.main.java.vc.branches.manag.services.HelloService;
+import src.main.java.vc.branches.manag.services.Strategy;
 
 public class Program {
-    private final HelloService helloService;
+    private final Strategy helloService;
 
-    public Program(HelloService helloService) {
+    public Program(Strategy helloService) {
         this.helloService = helloService;
     }
 
